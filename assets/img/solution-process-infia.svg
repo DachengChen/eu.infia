@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="648" height="549" viewBox="0 0 648 549" role="img" aria-label="INFIA Prozessgrafik">
+  <defs>
+    <linearGradient id="bg" x1="82" y1="44" x2="560" y2="488" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4FBFF"/>
+      <stop offset="1" stop-color="#EAF8F1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="96" y1="96" x2="520" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00B8FF"/>
+      <stop offset="1" stop-color="#12B886"/>
+    </linearGradient>
+    <filter id="shadow" x="58" y="52" width="534" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#0E2230" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="648" height="549" fill="none"/>
+  <g filter="url(#shadow)">
+    <rect x="84" y="72" width="480" height="372" rx="28" fill="url(#bg)"/>
+    <rect x="84" y="72" width="480" height="72" rx="28" fill="#0E2230"/>
+    <path d="M84 116h480v32H84z" fill="#0E2230"/>
+    <circle cx="126" cy="108" r="9" fill="#FF6B6B"/>
+    <circle cx="154" cy="108" r="9" fill="#FFD166"/>
+    <circle cx="182" cy="108" r="9" fill="#12B886"/>
+    <text x="216" y="116" fill="#FFFFFF" font-family="Roboto, Arial, sans-serif" font-size="18" font-weight="700">INFIA Workflow</text>
+
+    <rect x="132" y="190" width="124" height="92" rx="14" fill="#FFFFFF"/>
+    <rect x="262" y="294" width="124" height="92" rx="14" fill="#FFFFFF"/>
+    <rect x="392" y="190" width="124" height="92" rx="14" fill="#FFFFFF"/>
+
+    <circle cx="194" cy="224" r="22" fill="url(#accent)"/>
+    <path d="M183 224h22M194 213v22" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <text x="164" y="260" fill="#0E2230" font-family="Raleway, Arial, sans-serif" font-size="15" font-weight="800">Planen</text>
+
+    <circle cx="324" cy="328" r="22" fill="url(#accent)"/>
+    <path d="M313 333l7-14 9 18 8-16" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="294" y="364" fill="#0E2230" font-family="Raleway, Arial, sans-serif" font-size="15" font-weight="800">Umsetzen</text>
+
+    <circle cx="454" cy="224" r="22" fill="url(#accent)"/>
+    <path d="M443 224l8 8 16-18" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="425" y="260" fill="#0E2230" font-family="Raleway, Arial, sans-serif" font-size="15" font-weight="800">Betreiben</text>
+
+    <path d="M256 236c38 0 50 58 6 80" fill="none" stroke="#0E2230" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+    <path d="M386 340c44-20 31-82 6-104" fill="none" stroke="#0E2230" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+    <path d="M250 316l18-4-9 17z" fill="#0E2230"/>
+    <path d="M394 235l-17-5 5 18z" fill="#0E2230"/>
+  </g>
+</svg>

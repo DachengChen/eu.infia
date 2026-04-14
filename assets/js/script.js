@@ -48,22 +48,6 @@ Version      : 1.0
     	/*END PRELOADER JS*/
     
     /*-------------------------------------
-    About Vedio Popup
-    -------------------------------------*/
-    	$('.about_video').magnificPopup({
-    		items: {
-    			src: 'http://www.youtube.com/watch?v=0O2aH4XLbto',
-    			type: 'iframe' // this overrides default type
-    		},
-    	});
-    	
-		// counterup
-		$('.count').counterUp({
-			delay: 10,
-			time: 1000
-		});
-		
-    /*-------------------------------------
      LIGHTBOX popup
     -------------------------------------*/
     
@@ -71,30 +55,6 @@ Version      : 1.0
     	  'resizeDuration': 200,
     	  'wrapAround': true
     	})	
-		
-		
-		// testimonial_slider carousel  
-		$('.testimonial_area').owlCarousel({
-			margin:30,
-			nav:false,
-			dots: true,
-			autoplay: true,
-			autoplayTimeout: 2500,
-			autoplaySpeed: 2000,
-			items: 2,
-			responsive: {
-				0: {
-					items: 1,
-				},
-				780: {
-					items: 1,
-				},
-				1000: {
-					items: 2
-				}
-			}
-		});
-		
 	 /*---------------------
      Appoinment Wrapper
     ---------------------*/
