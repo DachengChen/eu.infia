@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="33" viewBox="0 0 140 33" role="img" aria-label="INFIA GMBH">
+  <defs>
+    <linearGradient id="markGradient" x1="2" y1="4" x2="29" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00B8FF"/>
+      <stop offset="1" stop-color="#12B886"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="33" fill="none"/>
+  <g>
+    <rect x="2.5" y="3.5" width="26" height="26" rx="7" fill="#0E2230"/>
+    <path d="M10 23.7V9.3h3.1v14.4H10Z" fill="#FFFFFF"/>
+    <path d="M17.2 23.7V9.3h10v3.1h-6.7v2.9h5.8v3h-5.8v5.4h-3.3Z" fill="url(#markGradient)"/>
+    <circle cx="25.6" cy="10.6" r="2.2" fill="#FFFFFF"/>
+  </g>
+  <text x="38" y="22.8" fill="#0E2230" font-family="Raleway, Arial, sans-serif" font-size="18.5" font-weight="800" letter-spacing="1.2">INFIA</text>
+  <text x="97" y="22.2" fill="#12B886" font-family="Roboto, Arial, sans-serif" font-size="7.8" font-weight="700" letter-spacing="1.1">GMBH</text>
+</svg>

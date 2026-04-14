@@ -1,6 +1,6 @@
 /*
-Author       : AB_Themes
-Template Name: Exo - Agency HTML Landing Template
+Author       : INFIA GMBH
+Template Name: INFIA Website
 Version      : 1.0
 */
 
